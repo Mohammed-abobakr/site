@@ -824,8 +824,8 @@ color: var(--mainColoe);
     color: var(--mainColor);
     margin-top: 20px
 }
-.team .info p{
-    margin-top: 20px
+.team .info p {
+    margin-top: 20px;
     color: #777;
     line-height: 1.6;
 }
