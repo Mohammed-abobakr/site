@@ -428,7 +428,7 @@ position: relative;
         margin: auto;
             margin-bottom: 100px;
             border: 2px solid var(--mainColor);
-            padding: 15px 40px;
+            padding: 15px 25px;
             width: fit-content;
             transition: var(--mainTransition);
             z-index: 1;
@@ -935,7 +935,7 @@ content: "";
             flex-direction: column;
         }
     .our-skills .image img {
-        margin-right: 0;
+        margin-right: 0 !important;
     }
 }
 
@@ -1576,6 +1576,11 @@ max-width: 100%;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
+@media (max-width: 991px) {
+    .gallers {
+    margin-bottom: 60px;
+  }
+}
 /* Footer  */
 /* Copyright  */
 .copyright {
@@ -1609,3 +1614,9 @@ max-width: 100%;
     align-items: center;
 }
 /* Copyright  */
+
+/* Additional Media  */
+@media (max-width:767px) {
+
+}
+/* Additional Media  */
