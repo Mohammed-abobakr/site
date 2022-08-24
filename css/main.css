@@ -261,7 +261,7 @@ color: #2196f3;
                 }
             .landing-image img {
                 animation:0;
-                transform: translateY(-40%);
+                transform: translateY(-23%);
             }
             .landing .text h1 {
                 margin-bottom: 60px;
