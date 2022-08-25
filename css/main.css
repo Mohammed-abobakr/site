@@ -1493,8 +1493,8 @@ input[type="submit"]{
 }
 .footer .social {
     display: flex;
-    align-items: left;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 .footer .information { 
     text-align: left;
@@ -1514,6 +1514,7 @@ input[type="submit"]{
     padding: 15px 20px;
     margin-right: 5px;
     display: block;
+    margin-bottom: 5px;
 }
 .footer .information i { 
 font-size: 22px;
@@ -1549,9 +1550,6 @@ color: #fff;
     color: #fff;
     padding: 10px;
     line-height: 1.4;
-}
-.footer .enfo ul il:first-child {
-
 }
 
 .footer .enfo .esc{
