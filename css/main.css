@@ -260,8 +260,8 @@ color: #2196f3;
                     justify-content: center;
                 }
             .landing-image img {
-                animation:0;
-                transform: translateY(-23%);
+                /* animation:0;
+                transform: translateY(-23%); */
             }
             .landing .text h1 {
                 margin-bottom: 60px;
