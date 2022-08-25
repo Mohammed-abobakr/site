@@ -1193,9 +1193,11 @@ flex: 1;
     z-index: 1;
     box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
 }
-.box.advanced {
-    position: relative;
-    transform: translateY(-30px);
+@media (min-width: 1200px) {
+    .box.advanced {
+        position: relative;
+        transform: translateY(-30px);
+    }
 }
 .most-popular::after {
         content: "";
