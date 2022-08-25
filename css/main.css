@@ -258,10 +258,6 @@ color: #2196f3;
             .landing .container {
                     justify-content: center;
                 }
-            .landing-image img {
-                /* animation:0;
-                transform: translateY(-23%); */
-            }
             .landing-image {
                 margin-top: 80px;
             }
